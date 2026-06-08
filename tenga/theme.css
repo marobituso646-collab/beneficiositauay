@@ -1,0 +1,110 @@
+.sc {
+	border     : none;
+	color      : #000;
+	position   : relative;
+	display    : inline-block;
+	text-align : left;
+	margin     : 0 10px 10px 0;
+}
+.sc ul {
+	list-style : none outside none;
+	margin     : 0;
+	padding    : 0;
+}
+.sc a {
+	display         : block;
+	text-decoration : none;
+	color           : #424242
+}
+.sc a:hover {
+	color : #F68121
+}
+.sc_label a {
+	width   : 100%;
+	padding : 0px
+}
+.sc a.sc_optionSelectedClass {
+	color : #F17C1F;
+}
+.sc a.sc_optgroupSelectedClass {
+	text-decoration : underline
+}
+.sc .sc_wrapper {
+	background-color : #FFF;
+	display          : none;
+	padding          : 0;
+	text-transform   : inherit;
+	z-index          : 9999;
+	color            : #666;
+	border           : 1px solid #DDD;
+	left             : -1px;
+	border-radius    : 4px;
+}
+.sc .sc_optGroup {
+	clear : both;
+	width : 85%;
+}
+.sc .sc_optGroup ul {
+	background-color : #FAFAFA;
+	border-radius    : 8px 8px 8px 8px;
+	padding          : 8px;
+	width            : 100%;
+}
+.sc .sc_optGroup ul li {
+	background-color : #F5F5F5;
+}
+.sc .sc_optGroupLabel {
+	border-bottom : 1px dotted #EEE;
+	display       : block;
+	font-weight   : bold;
+	padding       : 2px 0;
+	width         : 100%;
+	margin        : 4px 0;
+}
+.sc .sc_li {
+	border        : 1px solid #BBB;
+	border-radius : 4px;
+	color         : #666;
+	display       : block;
+	font-size     : 12px;
+	height        : 26px;
+	min-width     : 70px;
+	line-height   : 26px;
+	padding       : 0 6px;
+	transition    : border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.sc .sc_li:hover {
+	border     : 1px solid #F17C1F;
+	box-shadow : 2px 2px 3px rgba(0, 0, 0, 0.15) inset, 0 0 5px rgba(255, 165, 95, 0.8);
+	outline    : 0 none;
+}
+.sc .sc_label {
+	display       : block;
+	background    : url("arrow-down.png") no-repeat scroll right center #FFF;
+	border        : 1px solid #BBB;
+	border-radius : 4px;
+	color         : #666;
+	font-size     : 12px;
+	height        : 26px;
+	line-height   : 26px;
+	padding       : 0 20px 0 6px;
+	min-width     : 56px;
+	transition    : border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	cursor        : pointer;
+}
+.sc .sc_label:hover {
+	border     : 1px solid #F17C1F;
+	box-shadow : 2px 2px 3px rgba(0, 0, 0, 0.15) inset, 0 0 5px rgba(255, 165, 95, 0.8);
+	outline    : 0 none;
+}
+.sc a.sc_optionSelectedClass {
+	text-decoration : none
+}
+.sc_footer {
+	display : block;
+	clear   : both;
+	width   : 100%
+}
+.sc_footer a {
+	display : inline-block
+}
